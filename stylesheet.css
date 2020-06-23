@@ -1,0 +1,312 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+
+}
+
+body {
+    margin: 0;
+    font-family: "Lucida Grande";
+}
+
+a {
+    text-decoration: none;
+}
+
+.clear {
+    clear: left;
+}
+
+.container {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 50px;
+    margin: 0 auto;
+}
+
+/* header */
+
+header {
+    height: 65px;
+    width: 100%;
+    background-color:rgba(4,32,57,0.8);
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.logo {
+    font-size: 25px;
+    line-height: 65px;
+    color: white;
+}
+
+.header-left {
+    width: 20%;
+    float: left;
+}
+
+.header-right {
+    width: 80%;
+    float: right;
+    line-height: 65px;
+}
+
+.header-right ul{
+    margin: 0 auto;
+    transition: all 0.5s;
+    float: right;
+    padding: 0;
+}
+
+.header-right ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 0 20px;
+}
+.header-right ul li:hover {
+    background-color: rgba(255,255,255,0.2);
+}
+
+.header-right ul li a {
+  display: block;
+  color: white;
+}
+/*top wrapper*/
+.top-wrapper {
+    padding: 200px 0 120px 0;
+    background-image: url(rak-buku.jpg);
+    background-size: cover;
+    color: white;
+}
+
+.top-wrapper h1 {
+    font-size: 50px;
+    letter-spacing: 3px;
+    margin-bottom: 5px;
+
+}
+
+.top-wrapper span {
+    color: #f9ca24;
+}
+
+.top-wrapper h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.top-wrapper p {
+    margin-bottom: 3px;
+}
+
+.btn-wrapper {
+    margin: 20px 0;
+}
+
+.see-list-of {
+    background-color: #0568D0;
+    transition: all 0.5s;
+}
+
+.btn {
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.7;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
+/*courses-wrapper*/
+
+.courses-wrapper {
+    height: 600px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+.popular-courses {
+    height: 500px;
+    padding: 30px 0;
+    margin: 25px 0;
+    background-color: #062644;
+    border-radius: 10px;
+}
+
+.heading {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin-left: 30px;
+    text-align: left;
+    color: white;
+}
+.heading h2 {
+    font-weight: normal;
+    font-size: 32px;
+}
+
+.heading a {
+    color: white;
+}
+.course {
+    float: left;
+    width: 33.3%;
+    margin-left: auto;
+
+}
+
+.course-img {
+    position: relative;
+}
+
+.course-img img {
+    height: 200px;
+    width: 300px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.category-courses {
+    position: absolute;
+    top: 80%;
+    width: 200px;
+    padding: 7px 0 6px 10px;
+    margin-left: 28px;
+    font-size: 22px;
+    background-color: #f9ca24;
+    color: #062644;
+    border-radius: 0 10px;
+    text-align: left;
+}
+
+.txt-contents {
+    width: 80%;
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 18px;
+    color: white;
+}
+
+/*Message-wrapper*/
+.message-wrapper {
+  padding-bottom: 80px;
+  margin-bottom: 30px;
+  text-align: center;
+  height: 500px;
+}
+
+.message-wrapper .heading h2 {
+	text-align: left;
+  width: 50%;
+  color: #000000;
+}
+
+.contact-form {
+  float: left;
+  text-align: left;
+}
+
+input, textarea {
+  width: 400px;
+  margin-top: 10px;
+  margin-bottom: 25px;
+  padding:15px;
+  font-size:18px;
+  border:1px solid #dee7ec;
+  border-radius: 2px;
+  background-color:#eeeeee;
+}
+
+.contact-submit {
+  background-color:#0568D0;
+  color:#ffffff;
+  cursor: pointer;
+}
+
+.contact-img img {
+  width: 50%;
+  padding-top: 20px;
+  float: right;
+  border-radius: 10px;
+}
+
+/*footer*/
+
+footer {
+  height: 200px;
+  padding-top: 20px;
+  background-color: #286181;
+}
+
+.footer-widget {
+  height: 180px;
+  background-color: #286181;
+  color: white;
+}
+
+.about {
+  float: left;
+  width: 50%;
+}
+
+.about p {
+  width: 400px;
+}
+
+.footer-widget h2 {
+  margin-bottom: 20px;
+}
+
+.our-team {
+  width: 50%;
+  float: right;
+  padding-left: 100px;
+}
+
+.our-team li {
+  padding-bottom: 5px;
+  list-style: none;
+}
+
+.copyright {
+  height: 50px;
+  text-align: center;
+  background-color: #042039;
+  color: white;
+}
+
+.copyright p {
+  width: auto;
+  font-size: 18px;
+  line-height: 50px;
+}
+
+.menu-icon {
+  float: right;
+  color: white;
+  font-size: 30px;
+  text-align: right;
+  line-height: 65px;
+  display: none;
+  position: fixed;
+  z-index: 10;
+  cursor: pointer;
+}
+
+input {
+  float: right;
+}
+#chk {
+  display: none;
+}
