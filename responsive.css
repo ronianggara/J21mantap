@@ -1,0 +1,196 @@
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+    /* header*/
+    
+    .logo {
+        float: right;
+    }
+    .menu-icon {
+        display: block;
+        padding: 0 50px;
+    }
+
+    header {
+        background-color: #042039;
+    }
+
+    header .container {
+        padding: 0;
+    }
+
+    .logo {
+        padding: 0 50px;
+    }
+
+    .header-left {
+        width: 100%;
+    }
+
+    .header-right {
+        width: 100%;
+        float: right;
+    }
+
+    .header-right ul {
+        width: 100%;
+        float: left;
+        background-color: #042039;
+        transition: ease-in;
+        display: none;
+    }
+
+    .header-right ul li {
+        display: block;
+        text-align: center;
+    }
+    #chk:checked ~ .header-right ul {
+        display: block;
+    }
+
+    /*top wrapper*/
+    .top-wrapper{
+        padding: 120px 0 100px 0;
+        text-align: center;
+    }
+    
+    /*courses-courses*/
+    .courses-wrapper {
+        height: 1000px;
+        text-align: center;
+    }
+	.courses-wrapper{
+        height: 1000px;
+    }
+    
+    .popular-courses{
+        height: 1000px;
+        padding-bottom: 200px;
+    }
+    
+    .course{
+        clear: left;
+		width: 100%;
+		padding-bottom: 10px;
+		border-bottom: #DDA604 solid 2px;
+        padding-top: 10px;
+        flex-wrap: wrap;
+    }
+
+    .message-wrapper    {
+        height: 600px;
+    }
+    .contact-form {
+        clear: left;
+        margin-bottom: 80px;
+    }
+
+
+	.contact-form input, textarea{
+        width: 100%;
+        float: none;
+	}
+
+   .contact-img img{
+		display: none;
+    }
+    
+    footer {
+        width: 100%;
+    }
+    .footer-widget {
+        height: 400px;
+        margin-top: 100px;
+    }
+    .about {
+        width: 100%;
+        float: none;
+        text-align: center;
+        margin: 50px 0;
+    }
+
+    .our-team {
+        width: 100%;
+        float: none;
+        text-align: center;
+        padding-left: 0px;
+    }
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+    .logo {
+        float: right;
+    }
+    .menu-icon {
+        display: block;
+        padding: 0 50px;
+    }
+
+    header {
+        background-color: #042039;
+    }
+    
+    header .container {
+        padding: 0;
+    }
+
+    .logo {
+        padding: 0 50px;
+    }
+
+    .header-left {
+        width: 100%;
+    }
+
+    .header-right {
+        width: 100%;
+        float: right;
+    }
+
+    .header-right ul {
+        width: 100%;
+        float: left;
+        background-color: #042039;
+        transition: ease-in;
+        display: none;
+    }
+
+    .header-right ul li {
+        display: block;
+        text-align: center;
+    }
+    #chk:checked ~ .header-right ul {
+        display: block;
+    }
+
+
+	.popular-courses a{
+		font-size: 15px;
+	}
+	.courses-wrapper{
+        height: 1000px;
+        padding-bottom: 100px;
+        
+	}
+	.popular-courses{
+        height: 1000px;
+	}
+
+	.contact-form input, textarea{
+		width: 100%;
+	}
+
+	.category-courses{
+        position: relative;
+        left: 20%;
+        width: 60%;
+        text-align: center;
+        margin-left: 0px;
+        top: 70%;
+		border-radius:0 0px 10px 10px;
+    }
+    
+	.our-team{
+		padding-left: 1px;
+	}
+}
